@@ -12,7 +12,7 @@
       "architect": {
         "build": {
           "builder": "@angular/build:application",
-          "outputPath": "dist/todolist",
+          "outputPath": "dist/TaskmanagerAPP",
             "index": "src/index.html",
           "options": {
             "browser": "src/main.ts",
@@ -58,10 +58,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "todolist:build:production"
+              "buildTarget": "TaskmanagerAPP:build:production"
             },
             "development": {
-              "buildTarget": "todolist:build:development"
+              "buildTarget": "TaskmanagerAPP:build:development"
             }
           },
           "defaultConfiguration": "development"
