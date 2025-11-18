@@ -12,9 +12,9 @@
       "architect": {
         "build": {
           "builder": "@angular/build:application",
+          "options":{
           "outputPath": "dist/TaskmanagerAPP",
             "index": "src/index.html",
-          "options": {
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
