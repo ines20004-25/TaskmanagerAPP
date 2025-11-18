@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular app
-        run: npm run build -- --configuration production --base-hraf "/TaskmanagerAPP/"
+        run: npm run build -- --configuration production --base-href "/TaskmanagerAPP/"
 
       - name: Upload dist folder
         uses: actions/upload-pages-artifact@v3
