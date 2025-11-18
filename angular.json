@@ -58,10 +58,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "TaskmanagerAPP:build:production"
+              "buildTarget": "todolist:build:production"
             },
             "development": {
-              "buildTarget": "TaskmanagerAPP:build:development"
+              "buildTarget": "todolist:build:development"
             }
           },
           "defaultConfiguration": "development"
