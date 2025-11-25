@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { Task } from '../task/task';
 import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
 import { Taskservice } from '../taskservice';
@@ -10,6 +10,7 @@ import { Taskservice } from '../taskservice';
  
 })
 export class Home {
+  protected readonly title = signal('📋todolist✌️');
 taskForm: any;
 constructor(private Taskservice: Taskservice,private fb: FormBuilder) {
     this.taskForm = this.fb.group({

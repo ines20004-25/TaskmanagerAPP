@@ -15,4 +15,7 @@ return this.tasks;
 addTask(title: string) {
 this.tasks.push({ title, done: false });
 }
+removeTask(ind:number){
+this.tasks.splice(ind,1)
+}
 }
